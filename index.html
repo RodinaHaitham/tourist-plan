@@ -1,126 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ar" dir="rtl">
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <title>Tourist Plan</title>
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-    <!-- CSS -->
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="
-        responsive.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>القرية السياحية العالمية — المخطط العام للأرض السياحية</title>
+  <meta name="description" content="وجهة سياحية متكاملة على مساحة 201,000 م² في سلطنة عمان تجمع الضيافة والعلاج والثقافة والترفيه." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
-    <header>
-
-        <div class="container">
-
-            <nav class="navbar">
-
-                <div class="logo">
-                    Tourist<span>Plan</span>
-                </div>
-
-                <ul class="nav-links">
-
-                    <li><a href="#">Home</a></li>
-
-                    <li><a href="#">About</a></li>
-
-                    <li><a href="#">Destinations</a></li>
-
-                    <li><a href="#">Services</a></li>
-
-                    <li><a href="#">Gallery</a></li>
-
-                    <li><a href="#">Contact</a></li>
-
-                </ul>
-
-                <a href="#" class="btn">
-                    Book Now
-                </a>
-
-                <div class="menu-btn">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-
-            </nav>
-
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">
+        <img src="images/company_logo_b022db33.jpg" alt="شعار الشركة" />
+        <div class="brand-text">
+          <div class="brand-ar">القرية السياحية العالمية</div>
+          <div class="brand-en">Global Tourist Village</div>
         </div>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#masterplan">المخطط العام</a>
+        <a href="#gate">البوابة الرئيسية</a>
+        <a href="#projects">المشاريع التسعة</a>
+        <a href="#vision">الرؤية الاستثمارية</a>
+        <a href="#leadership">مجلس الإدارة</a>
+        <a href="#departments">الإدارات</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+      <a href="#projects" class="btn btn-gold nav-cta">استكشف المشاريع</a>
+      <button class="menu-btn" id="menuBtn" aria-label="القائمة">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-    </header>
-    <section class="hero">
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-grid-lines"></div>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="chip"><span class="dot"></span> مخطط استثماري سياحي متكامل</span>
+        <h1>المخطط العام <br /><span class="text-gold">للأرض السياحية</span></h1>
+        <p>حيث يلتقي التراث بالمستقبل — وجهة متكاملة على مساحة 201,000 م² تجمع الضيافة والعلاج والثقافة والترفيه في قلب عماني أصيل.</p>
+        <div class="hero-buttons">
+          <a href="#masterplan" class="btn btn-gold">شاهد المخطط العام</a>
+          <a href="#projects" class="btn btn-ghost">المشاريع التسعة</a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><div class="stat-num">201,000</div><div class="stat-unit">م²</div><div class="stat-label">المساحة الإجمالية</div></div>
+        <div class="stat"><div class="stat-num">9</div><div class="stat-unit">مشاريع</div><div class="stat-label">مشاريع متكاملة</div></div>
+        <div class="stat"><div class="stat-num">5</div><div class="stat-unit">محاور</div><div class="stat-label">محاور استثمارية</div></div>
+        <div class="stat"><div class="stat-num">365</div><div class="stat-unit">يوماً</div><div class="stat-label">تشغيل على مدار العام</div></div>
+      </div>
+    </div>
+  </section>
 
-        <div class="overlay"></div>
+  <!-- ============ MASTER PLAN ============ -->
+  <section id="masterplan" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-num">٢</span>
+        <span class="kicker">نظرة شاملة</span>
+        <span class="section-line"></span>
+      </div>
+      <h2>المخطط العام بتفاصيله الكاملة</h2>
+      <div class="grid grid-5">
+        <div class="col-2">
+          <p class="lead">يوزع المخطط تسعة مشاريع متكاملة على مساحة 201,000 م² وفق شبكة طرق داخلية ومسارات مشاة ومساحات خضراء، مع مدخل رئيسي جنوبي يقود الزائر نحو قلب الوجهة التراثي.</p>
+          <ul class="fact-list">
+            <li><span>مساحة إجمالية</span><b>201,000 م²</b></li>
+            <li><span>مقياس الرسم</span><b>1 : 2000</b></li>
+            <li><span>المدخل</span><b>رئيسي جنوبي وشبكة طرق داخلية</b></li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <div class="framed-img zoom">
+            <img src="images/master_plan_with_logo_848e9108.png" alt="المخطط العام" />
+            <div class="img-badge">اضغط للتكبير</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="container hero-content">
+  <!-- ============ GATE ============ -->
+  <section id="gate" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-num">٣</span>
+        <span class="kicker">مدخل الوجهة الجنوبي</span>
+        <span class="section-line"></span>
+      </div>
+      <h2>البوابة الرئيسية للقرية السياحية العالمية</h2>
+      <div class="grid grid-2">
+        <div class="framed-img">
+          <img src="images/main_gate_cce01f6e.jpg" alt="البوابة الرئيسية" />
+          <div class="framed-caption">
+            <div class="cap-title">بوابة الغانجة — المدخل الرئيسي</div>
+            <div class="cap-sub">Global Tourist Village L.C.C</div>
+          </div>
+        </div>
+        <div>
+          <h3>أول انطباع… بطراز عماني مهيب</h3>
+          <p class="lead">تتوسط البوابة قوساً عمانياً ضخماً تعلوه قبة ذهبية، تحف به أبراج بزخارف تراثية ومشربيات خشبية، مع نوافير وممرات نخيل وأعلام دولية ترحب بزوار الوجهة من مختلف أنحاء العالم.</p>
+          <ul class="bullet-list">
+            <li>قوس مركزي ضخم بقبة ذهبية واسم القرية المضيء</li>
+            <li>أبراج جانبية بزخارف ومشربيات عمانية تراثية</li>
+            <li>نوافير ومسطحات خضراء ومسارات دخول للمركبات والمشاة</li>
+            <li>أعلام دولية تعكس الطابع العالمي للوجهة</li>
+          </ul>
+          <div class="mini-card">
+            <div class="mini-label">الموقع في المخطط</div>
+            <div class="mini-value">المدخل الرئيسي الجنوبي</div>
+            <a href="#projects" class="btn btn-outline">استكشف القرية ←</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <h1>Discover The World With Us</h1>
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-num">٤</span>
+        <span class="kicker">تسع تجارب متكاملة</span>
+        <span class="section-line"></span>
+      </div>
+      <h2>المشاريع التسعة</h2>
+      <p class="lead">اضغط على أي مشروع لاستعراض تفاصيله وصورته الكاملة</p>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
 
-            <p>
-                Explore amazing destinations and plan your dream vacation
-                with comfort and confidence.
-            </p>
+  <!-- ============ MODAL ============ -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-card" id="modalCard">
+      <button class="modal-close" id="modalClose" aria-label="إغلاق">✕</button>
+      <img id="modalImg" src="" alt="" />
+      <div class="modal-body">
+        <div class="modal-chips">
+          <span class="chip-num" id="modalNum"></span>
+          <span class="chip-cat" id="modalCat"></span>
+        </div>
+        <h3 id="modalTitle"></h3>
+        <div class="modal-en" id="modalEn"></div>
+        <p id="modalDesc"></p>
+        <div class="modal-loc">الموقع في المخطط: <b id="modalLoc"></b></div>
+      </div>
+    </div>
+  </div>
 
-            <div class="hero-buttons">
+  <!-- ============ VISION ============ -->
+  <section id="vision" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-num">٥</span>
+        <span class="kicker">تكامل استثماري</span>
+        <span class="section-line"></span>
+      </div>
+      <h2>رؤية استثمارية متكاملة</h2>
+      <p class="lead">تنوع المشاريع التسعة يحقق تكاملاً تشغيلياً واستثمارياً يجذب شرائح متعددة من الزوار على مدار العام، ويضمن بقاء الزائر لأيام متعددة داخل الوجهة الواحدة.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>المحور</th><th>المشاريع الداعمة</th><th>الشريحة المستهدفة</th></tr></thead>
+          <tbody id="axesBody"></tbody>
+        </table>
+      </div>
+      <div class="grid grid-3 mt-lg">
+        <div class="feature-card"><h4>إقامة ممتدة</h4><p>منظومة متكاملة تضمن بقاء الزائر لأيام متعددة داخل الوجهة الواحدة.</p></div>
+        <div class="feature-card"><h4>مصادر دخل متنوعة</h4><p>إيرادات من الإيجارات والتذاكر والخدمات الفندقية والطبية والتجارية.</p></div>
+        <div class="feature-card"><h4>الخطوة التالية</h4><p>استكمال التصاميم التفصيلية والدراسات الهندسية والاقتصادية.</p></div>
+      </div>
+    </div>
+  </section>
 
-                <a href="#" class="btn">Explore Now</a>
+  <!-- ============ LEADERSHIP ============ -->
+  <section id="leadership" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-num">٦</span>
+        <span class="kicker">قيادة برؤية عالمية</span>
+        <span class="section-line"></span>
+      </div>
+      <h2>مجلس الإدارة والإدارة التنفيذية</h2>
+      <p class="lead">قيادات تجمع بين الخبرة الاستثمارية والرؤية السياحية، تقود مشروع القرية السياحية العالمية نحو مكانة إقليمية وعالمية مرموقة.</p>
+      <div class="grid grid-3" id="leadersGrid"></div>
+    </div>
+  </section>
 
-                <a href="#" class="btn-outline">Learn More</a>
+  <!-- ============ DEPARTMENTS ============ -->
+  <section id="departments" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-num">٧</span>
+        <span class="kicker">هيكل مؤسسي متكامل</span>
+        <span class="section-line"></span>
+      </div>
+      <h2>إدارات الشركة</h2>
+      <p class="lead">تسع إدارات متخصصة تعمل بتناغم لإدارة وتشغيل مشاريع القرية السياحية العالمية وفق أعلى المعايير المؤسسية.</p>
+      <div class="dept-grid" id="deptGrid"></div>
+    </div>
+  </section>
 
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-num">٨</span>
+        <span class="kicker">للمستثمرين والشركاء</span>
+        <span class="section-line"></span>
+      </div>
+      <h2>تواصل معنا</h2>
+      <div class="grid grid-2">
+        <div>
+          <div class="contact-brand">
+            <img src="images/company_logo_b022db33.jpg" alt="شعار" />
+            <div>
+              <div class="brand-ar">شركة القرية السياحية العالمية ش م م</div>
+              <div class="brand-en">Global Tourist Village L.C.C</div>
             </div>
-
+          </div>
+          <ul class="contact-list" id="contactList"></ul>
+          <div class="grid grid-2 gap-sm" id="routesGrid"></div>
         </div>
+        <form class="contact-form" id="contactForm">
+          <h3>نموذج تواصل المستثمرين</h3>
+          <div class="grid grid-2 gap-sm">
+            <label>الاسم الكامل *<input type="text" name="name" required /></label>
+            <label>الشركة / الجهة<input type="text" name="company" /></label>
+            <label>البريد الإلكتروني *<input type="email" name="email" required /></label>
+            <label>رقم الهاتف *<input type="tel" name="phone" required /></label>
+          </div>
+          <label>مجال الاهتمام الاستثماري
+            <select name="interest" id="interestSelect"><option>اختر المجال (اختياري)</option></select>
+          </label>
+          <label>الرسالة *<textarea rows="4" name="message" required></textarea></label>
+          <button type="submit" class="btn btn-gold btn-block">إرسال الطلب</button>
+        </form>
+      </div>
+    </div>
+  </section>
 
-    </section>
-    <section class="counter">
-
-        <div class="container">
-
-            <div class="counter-box">
-
-                <div class="item">
-                    <h2 class="count" data-target="250">0</h2>
-                    <p>Destinations</p>
-                </div>
-
-                <div class="item">
-                    <h2 class="count" data-target="5000">0</h2>
-                    <p>Happy Travelers</p>
-                </div>
-
-                <div class="item">
-                    <h2 class="count" data-target="120">0</h2>
-                    <p>Tour Guides</p>
-                </div>
-
-                <div class="item">
-                    <h2 class="count" data-target="98">0</h2>
-                    <p>Countries</p>
-                </div>
-
-            </div>
-
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <img src="images/company_logo_b022db33.jpg" alt="" />
+        <div class="brand-text">
+          <div class="brand-ar">شركة القرية السياحية العالمية ش م م</div>
+          <div class="brand-en">© <span id="year"></span> جميع الحقوق محفوظة</div>
         </div>
+      </div>
+      <div class="footer-loc">ولاية بركاء، سلطنة عمان — طريق الباطنة السريع</div>
+    </div>
+  </footer>
 
-    </section>
-
-
-    <script src="js/main.js"></script>
-
+  <script src="script.js"></script>
 </body>
-
 </html>
